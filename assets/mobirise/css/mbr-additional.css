@@ -11186,6 +11186,37 @@ a {
 .cid-u2BzBZhi3X img {
   width: 100%;
 }
+.cid-u2G431v0PW {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #000000;
+}
+.cid-u2G431v0PW .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-u2G431v0PW .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-u2G431v0PW .video-wrapper iframe {
+  width: 100%;
+}
+.cid-u2G431v0PW .mbr-section-title,
+.cid-u2G431v0PW .mbr-section-subtitle,
+.cid-u2G431v0PW .mbr-text {
+  text-align: center;
+}
+.cid-u2G431v0PW .mbr-section-title {
+  color: #fafafa;
+}
+.cid-u2G431v0PW .mbr-section-subtitle {
+  color: #bbbbbb;
+}
 .cid-tMPjRFtLGJ {
   z-index: 1000;
   width: 100%;
