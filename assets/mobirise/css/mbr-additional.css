@@ -16775,3 +16775,31 @@ a {
 .cid-u3E0T4qZWO .mbr-description {
   color: #bbbbbb;
 }
+.cid-u3ElgSIiB5 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #000000;
+}
+.cid-u3ElgSIiB5 .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-u3ElgSIiB5 .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-u3ElgSIiB5 .video-wrapper iframe {
+  width: 100%;
+}
+.cid-u3ElgSIiB5 .mbr-section-title,
+.cid-u3ElgSIiB5 .mbr-section-subtitle,
+.cid-u3ElgSIiB5 .mbr-text {
+  text-align: center;
+}
+.cid-u3ElgSIiB5 .mbr-section-subtitle {
+  color: #bbbbbb;
+}
