@@ -24315,6 +24315,48 @@ a {
 .cid-uxJbHmdgEQ .mbr-section-subtitle {
   color: #bbbbbb;
 }
+.cid-uzlj6LXNwf {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #000000;
+}
+.cid-uzlj6LXNwf .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-uzlj6LXNwf .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-uzlj6LXNwf .video-wrapper iframe {
+  width: 100%;
+}
+.cid-uzlj6LXNwf .mbr-section-title,
+.cid-uzlj6LXNwf .mbr-description {
+  text-align: center;
+}
+.cid-uzlj6LXNwf .text-wrapper {
+  padding: 1rem;
+}
+@media (min-width: 992px) {
+  .cid-uzlj6LXNwf .text-wrapper {
+    padding: 2rem;
+    padding-right: 4rem;
+  }
+}
+.cid-uzlj6LXNwf .mbr-text {
+  color: #bbbbbb;
+}
+.cid-uzlj6LXNwf .mbr-section-subtitle {
+  color: #bbbbbb;
+}
+.cid-uzlj6LXNwf .mbr-section-title {
+  color: #fafafa;
+}
 .cid-uxfHUV0zTA {
   padding-top: 0rem;
   padding-bottom: 2rem;
@@ -24745,4 +24787,60 @@ a {
 }
 .cid-uxekBg5csX .mbr-section-title {
   color: #232323;
+}
+.cid-uzlfq4UIvQ {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #000000;
+}
+.cid-uzlfq4UIvQ .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-uzlfq4UIvQ .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+@media (max-width: 991px) {
+  .cid-uzlfq4UIvQ .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-uzlfq4UIvQ .row {
+  flex-direction: row-reverse;
+}
+.cid-uzlfq4UIvQ img {
+  width: 100%;
+}
+.cid-uzlif256qD {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #000000;
+}
+.cid-uzlif256qD .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-uzlif256qD .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+@media (max-width: 991px) {
+  .cid-uzlif256qD .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-uzlif256qD .row {
+  flex-direction: row-reverse;
+}
+.cid-uzlif256qD img {
+  width: 100%;
 }
