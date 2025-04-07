@@ -27152,6 +27152,44 @@ a {
 .cid-uHDxtlMKZE .mbr-text {
   color: #bbbbbb;
 }
+.cid-uHGTekemMe {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #000000;
+}
+.cid-uHGTekemMe .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-uHGTekemMe .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-uHGTekemMe .video-wrapper iframe {
+  width: 100%;
+}
+.cid-uHGTekemMe .mbr-section-title,
+.cid-uHGTekemMe .mbr-section-subtitle,
+.cid-uHGTekemMe .mbr-text {
+  text-align: center;
+}
+.cid-uHGTekemMe .mbr-section-subtitle {
+  color: #fafafa;
+  text-align: center;
+}
+.cid-uHGTekemMe .mbr-section-title {
+  color: #fafafa;
+}
+.cid-uHGTekemMe .mbr-section-subtitle DIV {
+  text-align: center;
+}
+.cid-uHGTekemMe .mbr-text {
+  color: #bbbbbb;
+}
 .cid-uHDxtlVzzk {
   background-color: #000000;
 }
