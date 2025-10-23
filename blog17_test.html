@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Site made with Mobirise Website Builder v6.1.4, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v6.1.4, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/madeira3d-logo.png" type="image/x-icon">
+  <meta name="description" content="Blueprint">
+  <title>blog17_test</title>
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=ZdexYz">
+  <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=ZdexYz" type="text/css">
+</head>
+
+<body>
+
+<!-- Navbar omitted for brevity (igual ao original) -->
+
+<section data-bs-version="5.1" class="menu menu3 cid-v0uiAugFhF" once="menu" id="menu3-eu">
+  <!-- ... menu igual ao original ... -->
+</section>
+
+<!-- Secções anteriores mantidas -->
+<section data-bs-version="5.1" class="video4 cid-v0uiAusRCJ" id="video4-ev">
+  <!-- ... conteúdo igual ao original ... -->
+</section>
+
+<section data-bs-version="5.1" class="content6 cid-v0uiAuB0rP" id="content6-ew">
+  <!-- ... conteúdo igual ao original ... -->
+</section>
+
+<!-- ✅ Secção substituída: arrastar para comparar -->
+<section data-bs-version="5.1" class="image3 cid-v0uJySdIzS mbr-fullscreen" id="image3-ez">
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-12">
+        <div class="compare-container">
+          <div class="compare-wrapper">
+            <img src="assets/images/ICAT/before.jpg" alt="Before" class="compare-img before-img">
+            <div class="after-wrapper">
+              <img src="assets/images/ICAT/after.jpg" alt="After" class="compare-img after-img">
+            </div>
+            <div class="slider-handle"></div>
+          </div>
+        </div>
+        <p class="mbr-description mbr-fonts-style mt-2 align-center display-4">Arraste para comparar</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Restante conteúdo igual -->
+<section data-bs-version="5.1" class="video2 cid-v0uiAuGo95" id="video2-ex">
+  <!-- ... -->
+</section>
+
+<section data-bs-version="5.1" class="image3 cid-v0uiAuPqzD mbr-fullscreen" id="image3-ey">
+  <!-- ... -->
+</section>
+
+<!-- Rodapé -->
+<section class="display-7" style="padding:0;align-items:center;justify-content:center;flex-wrap:wrap;align-content:center;display:flex;position:relative;height:4rem;">
+  <!-- ... rodapé original ... -->
+</section>
+
+<!-- Scripts originais -->
+<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/smoothscroll/smooth-scroll.js"></script>
+<script src="assets/ytplayer/index.js"></script>
+<script src="assets/dropdown/js/navbar-dropdown.js"></script>
+<script src="assets/playervimeo/vimeo_player.js"></script>
+<script src="assets/theme/js/script.js"></script>
+
+<!-- ✅ CSS e JS do comparador -->
+<style>
+.compare-container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  user-select: none;
+  cursor: ew-resize;
+}
+.compare-wrapper {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.compare-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.after-wrapper {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  overflow: hidden;
+  transition: none;
+}
+.slider-handle {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 3px;
+  height: 100%;
+  background: #fff;
+  box-shadow: 0 0 5px #000;
+  cursor: ew-resize;
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const container = document.querySelector(".compare-container");
+  const afterWrapper = container.querySelector(".after-wrapper");
+  const handle = container.querySelector(".slider-handle");
+
+  let isDown = false;
+
+  const moveSlider = e => {
+    if (!isDown) return;
+    const rect = container.getBoundingClientRect();
+    let offsetX = e.clientX - rect.left;
+    offsetX = Math.max(0, Math.min(offsetX, rect.width));
+    const percent = (offsetX / rect.width) * 100;
+    afterWrapper.style.left = percent + "%";
+    afterWrapper.style.width = (100 - percent) + "%";
+    handle.style.left = percent + "%";
+  };
+
+  container.addEventListener("mousedown", () => isDown = true);
+  container.addEventListener("mouseup", () => isDown = false);
+  container.addEventListener("mouseleave", () => isDown = false);
+  container.addEventListener("mousemove", moveSlider);
+});
+</script>
+
+</body>
+</html>
